@@ -1,0 +1,6 @@
+Date = 6th July 2023
+
+405 Method Not Allowed Error
+
+
+I was using GET API call but the API was a POST API.
