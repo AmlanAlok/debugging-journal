@@ -1,0 +1,3 @@
+Date = 7th July 2023
+
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'nu@x.com' for key 'users.email_UNIQUE'
