@@ -1,0 +1,16 @@
+Date = 7th July 2023
+
+What is the use of the @Temporal annotation in Hibernate?
+
+https://stackoverflow.com/questions/25333711/what-is-the-use-of-the-temporal-annotation-in-hibernate
+
+I was trying to store a timestamp value in the created_at field
+
+
+Solution
+
+I used java.sql.Timestamp
+
+user.setCreated_at(new Timestamp(System.currentTimeMillis()));
+
+https://stackoverflow.com/questions/23068676/how-to-get-current-timestamp-in-string-format-in-java-yyyy-mm-dd-hh-mm-ss
